@@ -558,7 +558,7 @@
             "BUL": "Founded Song:",
             "ARAT": "Searched Song:"
         },
-        "amazone": {
+        "stefanie": {
             "APK": "GET mod app link.",
             "ANIM_DESC": "```Send Random Anime Wallpapers!```",
             "BR_DESC": "Ask a quation",
@@ -576,7 +576,7 @@
             "BOT_DESC": "Chat with AI sim bot .bot < your msg >",
             "PINSTA": "Download Instergram post",
             "VINSTA": "Download instergram video",
-            "PKG": "install official Amazone plugins",
+            "PKG": "install official Stefanie plugins",
             "REMOVE": "Remove Official plugins",
             "PLUG": "Show official plugins list",
             "MMPACK": "Show  meme maker list",
@@ -600,7 +600,7 @@
             "DEVICE": "Check device details",
             "DATA": "Get Ehi list",
             "E": "👩‍🦰",
-            "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
+            "NOT_AVAILABLE": "👩‍🦰Stefanie chat bot Disabled."
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
