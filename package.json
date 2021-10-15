@@ -2,13 +2,13 @@
   "name": "ales",
   "version": "7.3.6",
   "description": ".",
-  "main": "./amazoneAlexa/bot.js",
+  "main": "./stefanie-beta/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesonpro/ales.git"
+    "url": "git+https://github.com/xmain12/stefanie-beta.git"
   },
   "keywords": [
     "whatsapp",
@@ -21,7 +21,7 @@
   "developer": "@terror-boy / @HatzuHole",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/jesonpro/ales/issues"
+    "url": "https://github.com/xmain12/stefanie-beta/issues"
   },
   "homepage": "https://github.com/jesonpro/ales#readme",
   "dependencies": {
