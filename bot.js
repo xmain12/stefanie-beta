@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 TENUX-Neotro.
+/* Copyright (C) 2021 Stefanie-Vurus fucker.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+STEFANIE - XMAIN
 */
 
 const fs = require("fs");
@@ -14,7 +14,7 @@ const config = require('./config');
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./Amazone/');
+const {Message, StringSession, Image, Video} = require('./Stefanie/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
@@ -318,7 +318,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('🛡️Amazone Alexa working!')
+            chalk.green.bold('🛡️Stefanie bot working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
