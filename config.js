@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 Stefanie-Vurus fucker.
+/* Copyright (C) 2021 ws virus Fucker.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-STEFANIE - XMAIN
+VIRUS - FUCKER
 */
 
 const { Sequelize } = require('sequelize');
@@ -22,11 +22,11 @@ module.exports = {
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'SI' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.ALIVE_LOGO,
+    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/0edc0f3917fde20a7990a.jpg' : process.env.ALIVE_LOGO,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
-    ALL: process.env.ALL_CAPTION === undefined ? 'Made By 👩‍🦰Stefanie' : process.env.ALL_CAPTION,
+    ALL: process.env.ALL_CAPTION === undefined ? '*Copyright © 2021 | Queen Stefanie*' : process.env.ALL_CAPTION,
     MENTION: process.env.TAG_REPLY === undefined ? '918921483992@s.whatsapp.net' : process.env.TAG_REPLY,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
@@ -35,9 +35,9 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOT: process.env.BOT_NAME === undefined ? '👩‍🦰QUEEN Stefanie' : process.env.BOT_NAME,
-    BOT_NAME: process.env.BOT_NAME === undefined ? '👩‍🦰Queen Stefanie' : process.env.BOT_NAME,
-    NOLOG: process.env.NO_LOG === undefined ? 'true' : process.env.NO_LOG,
+    BOT: process.env.BOT_NAME === undefined ? '▢ ⇓Stefanie Commands⇓ ▢' : process.env.BOT_NAME,
+    BOT_NAME: process.env.BOT_NAME === undefined ? '▢ ⇓Stefanie Commands⇓ ▢' : process.env.BOT_NAME,
+    NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'true' : process.env.THERI_KICK,
     SONGD: process.env.SONGD === undefined ? 'ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGD,
     SONGU: process.env.SONGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGU,
@@ -62,10 +62,9 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD === undefined ?'true' : process.env.ANTIBAD,
     FULLALEXA: process.env.FULL_ALEXA === undefined ?'false' : process.env.FULL_ALEXA,
     WHATS_LINK_BLOCK: process.env.WHATS_LINK_BLOCK === undefined ?'false' : process.env.WHATS_LINK_BLOCK,
-    MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.MENU_LOGO,
+    MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://telegra.ph/file/0edc0f3917fde20a7990a.jpg' : process.env.MENU_LOGO,
     PKGPS: process.env.PKGPS === undefined ?'=xnxcom' : process.env.PKGPS,
     ADULT_MODE: process.env.ADULT_MODE === undefined ? 'on' : process.env.ADULT_MODE,
-    AMAZONE: process.env.AMAZONE === undefined ? 'Amazone Alexa' : process.env.AMAZONE,
     KTB: process.env.TAG_HEADER === undefined ? 'Amazone' : process.env.TAG_HEADER,
     BIO: process.env.BIO === undefined ? 'ɪ ᴀᵐ ⁿᵒᵗ ᵖᵉʳᶠᵉᶜᵗ ʙᵘᵗ ɪ  ᴀᵐ ʟⁱᵐⁱᵗᵉᵈ ᴇᵈⁱᵗⁱᵒⁿ👀🔥' : process.env.BIO,
     ANTI_BAD: process.env.ANTI_BAD === undefined ? 'false' : process.env.ANTI_BAD,
@@ -74,8 +73,6 @@ module.exports = {
     SITE: process.env.SITE === undefined ?'netfiletolink.herokuapp.com/' : process.env.SITE,
     FBS1: process.env.FBS1 === undefined ?'https://dapuhy-api.herokuapp.com/api/' : process.env.FBS1,
     FBS2: process.env.FBS2 === undefined ?'snapsave?url' : process.env.FBS2,
-    VID1: process.env.VID1 === undefined ?'https://zenzapi.xyz/api/downloader/' : process.env.VID1,
-    VID2: process.env.VID2 === undefined ?'RDMMiI1VlXspMp8&index=2' : process.env.VID2,
     ASITE: process.env.ASITE === undefined ?'https://netfiletolink.herokuapp.com/' : process.env.ASITE,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     BRANCH: 'master',
@@ -95,6 +92,5 @@ module.exports = {
     SUPPORT2: "9",
     SUPPORT3: "9",
     FBAPI : 'OSuDZukzPWE49ro',
-    VIDAPI: '5c3ceca04a58',
     SUPPORT4: "9"
 };
