@@ -18,7 +18,7 @@ module.exports = {
     VERSION: 'v7.3.6',
     ZRUN: "zenzapi",
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
-    BOT_NAME: process.env.BOT_NAME === undefined ? 'Amazone Alexa' : process.env.BOT_NAME,
+    BOT_NAME: process.env.BOT_NAME === undefined ? 'Queen Stefanie' : process.env.BOT_NAME,
     HNLOCK: 'hadi-api',
     ZLOCK: 'zeks',
     ZNLOCK: 'zenzapi.xyz',
