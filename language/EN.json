@@ -79,10 +79,10 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Amazone Alexa",
-            "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
-            "SHUTDOWN_DESC": "Shutdown 👩‍🦰Amazone Alexa",
-            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
+            "RESTART_DESC": "Restart your bot...",
+            "RESTART_MSG": "*Restarting 👩‍🦰Queen Stefanie...*",
+            "SHUTDOWN_DESC": "Shutdown Your bot",
+            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Queen Stefanie*",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -90,7 +90,7 @@
             "DYNO_LEFT": "```Remaining```",
             "GR_DEL": "*Greetings Message Set!*\n*Type* ```.goodbye delete & .welcome delete``` *to remove!*",
             "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ▷▷▷ {}```",
+            "SET_SUCCESS": "Successfully set ```{} ██ {}```",
             "KEY_VAL_MISSING": "```Either Key or Value is missing```",
             "INVALID": "```Invalid key:value format```",
             "GETVAR_DESC": "Get heroku config var",
@@ -135,7 +135,7 @@
             "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
             "WELCOME_SETTED": "*✅ Welcome message has been set successfully!*",
             "RULE_DESC": "Shows the Group rules",
-			"SETRULE_DESC": "It sets the Rule message..\n*Example:* _.setrules No Links#No Spamming_",
+            "SETRULE_DESC": "It sets the Rule message..\n*Example:* _.setrules No Links#No Spamming_",
             "NOT_SET_RULE": "🦹🏼‍♀️ *You don't set the Rule message yet.!*\n*Example:* _.setrules No Links#No Spamming_",
             "NEED_RULE_TEXT": "🦹🏼‍♀️ *You must write a message to set up the Rule message.*\n*Example* _.setrules No Links#No Spamming_",
             "RULE_DELETED": "*✅ Rule message has been deleted successfully!*",
@@ -236,7 +236,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```👩‍🦰Amazone Creating Sticker```"
+            "DOWNLOADING": "```👩‍🦰Stefanie Creating Sticker```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -265,11 +265,11 @@
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Updating..🧞‍♂️",
+            "UPDATING": "Updating✅",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*👩‍🦰Amazone Alexa Updated!*",
-            "UPDATED_LOCAL": "*👩‍🦰Amazone Alexa Updated!*",
-            "AFTER_UPDATE": "*👩‍🦰Amazone Alexa Restarting !*",
+            "UPDATED": "*👩‍🦰Queen Stefanie Updated!*",
+            "UPDATED_LOCAL": "*👩‍🦰Stefanie Updated!*",
+            "AFTER_UPDATE": "*👩‍🦰Queen Stefanie Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
