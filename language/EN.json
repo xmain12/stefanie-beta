@@ -4,7 +4,7 @@
     "LANGCODE": "en",
     "AUTHOR": "xmain12",
     "STRINGS": {
-        "_amazone": {
+        "_help": {
             "COMMAND": "Command",
             "DESC": "Description",
             "EXAMPLE": "Example",
