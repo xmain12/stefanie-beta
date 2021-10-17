@@ -33,7 +33,7 @@ module.exports = {
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
-    STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
+    STICKERP: process.env.AUTO_STICKER === undefined ? false : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     BOT: process.env.BOT_NAME === undefined ? '▢ ⇓Stefanie Commands⇓ ▢' : process.env.BOT_NAME,
     BOT_NAME: process.env.BOT_NAME === undefined ? '▢ ⇓Stefanie Commands⇓ ▢' : process.env.BOT_NAME,
