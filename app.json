@@ -1,7 +1,7 @@
 {
     "name": "Stefanie",
     "description": "Stefanie Is Powerfull whatsapp bot For Whatsapp",
-    "logo": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg",
+    "logo": "https://telegra.ph/file/0edc0f3917fde20a7990a.jpg",
     "keywords": ["whatsapp", "userbot", "java", "button bot", "whatsapp", "api", "ai", "asena", "bug", "free rdp" ],
     "repository": "https://www.github.com/xmain12/stefanie-beta",
     "website":   "https://t.me/Amazone_Neotrox_Support",
@@ -19,7 +19,7 @@
         "LANGUAGE": {
             "description": "Bot language. English => en,  sinhala => si, Indonesia => ID",
             "required": true,
-            "value": "si"
+            "value": "en"
         },
         "BIO": {
             "description": "Change Your live Bio",
@@ -29,17 +29,17 @@
         "AUTO_STICKER": {
             "description": "If you likes Auto Sticker you can write 'true'. Otherwise false",
             "required": false,
-            "value": "false"
+            "value": "true"
          },
         "SONGD": {
             "description": "Customizable Song Download message",
             "required": false,
-            "value": "*◦•●◉Downloading Your Song◉●•◦*"
+            "value": "*Downloading Your Song...*"
         },
         "SONGU": {
             "description": "Customizable Song upload message",
             "required": false,
-            "value": "*◦•●◉✿Uploading Your Song✿◉●•◦*"
+            "value": "*Uploading Your Song...*"
         },
         "AUTO_BIO": {
             "description": "Set true for auto date, time in biography.",
@@ -54,7 +54,7 @@
        "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "👩‍🦰©Amazone Alexa"
+            "value": "👩‍🦰Queen Stefanie"
         },
         "WHATS_LINK_BLOCK": {
             "description": "Link Blocking System.- this one blocks whatsapp group  link",
@@ -172,7 +172,7 @@
         "ALIVE_LOGO": {
             "description": "Alive message Photo.",
             "required": false,
-            "value": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg"
+            "value": "https://telegra.ph/file/0edc0f3917fde20a7990a.jpg"
        },
         "MENU_LOGO": {
             "description": "Menu message Photo.",
@@ -197,7 +197,7 @@
         "BOT_PRESENCE": {
             "description": "Type the Presence of bot, presences: online => Always Shows the online, offline => Always Shows offline, typing => Always Shows typing, recording => Always Shows recording.. NOTE : THE PRESENCE WILL BE PERMANENT, UNTIL THE BOT IS ALIVE / RUNNING / WORKING",
             "required": false,
-            "value": "offline"
+            "value": "online"
         },
         "COFFEEHOUSE_API_KEY": {
             "description": "Pass This Step!",
