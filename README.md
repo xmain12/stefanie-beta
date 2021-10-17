@@ -42,3 +42,9 @@ From the first device you need to install Stefanie Bot.`
 
 > [![Sinhala Youtube Tutorial](https://telegra.ph/file/c32d74b7afc8ffe2e7fef.png)](https://youtu.be/sEtocRRzTno)
 
+/* # Exclusively from VIRUS FUCKER Project 
+# Do not use this fore any commercial thing
+# Do not edit (Respect to the Devaoloper) 
+# All rights reserved VIRUS FUCKER https://Wa.me/9477858811
+# Credit : usufusta-whatsappAsena
+*/
