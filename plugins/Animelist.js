@@ -11,7 +11,7 @@ const fs = require('fs');
 const Ln = "Anime List"
 const axios = require('axios');
 let Language = require('../language');
-let Lang = Language.getString('amazone');
+let Lang = Language.getString('stefanie');
 const Config = require('../config');
 let tk = Config.WORKTYPE == 'public' ? false : true
 
