@@ -10,7 +10,7 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 const Language = require('../language');
-const Lang = Language.getString('xmain');
+const Lang = Language.getString('stefanie');
 
 if (Config.WORKTYPE == 'private') {
 
