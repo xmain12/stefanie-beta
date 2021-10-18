@@ -8,7 +8,7 @@ const Stefanie = require('../events');
 const config = require('../config');
 const Heroku = require('heroku-client');
 const Language = require('../language');
-const Lang = Language.getString('amazone');
+const Lang = Language.getString('stefanie');
 
 const heroku = new Heroku({
     token: config.HEROKU.API_KEY
