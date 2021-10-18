@@ -113,119 +113,119 @@ setInterval(async () => {
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { // Sri Lanka
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { // Portugal
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Indian
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { // Germany
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { // Brazil
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { // Spain
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) { // Italy 
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Kazakhistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ*© 2021 | STEFANIE V 8.5.2 beta👸*'
                 await conn.setStatus(biography)
             }
         }
@@ -279,7 +279,7 @@ setInterval(async () => {
 // =====================DEBUG=================
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Amazone')}${chalk.blue.bold('Alexa')}
+        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Stefanie')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
@@ -329,7 +329,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : https://t.me/Amazone_Neotrox_Support\n*🧚‍♂QUEEN AMAZONE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*👸QUEEN STEFANIE As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .help විධානය භාවිතා කරන්න*\n\nSupport Group : https://chat.whatsapp.com/KlpSnFrspoaEu2kRrjx8v4\n*🧚‍♂QUEEN STEFANIE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -384,7 +384,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN Stefanie As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : _https://t.me/Amazone_Neotrox_Support_\n*🧚‍♂QUEEN STEFANIE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN Stefanie As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ . help විධානය භාවිතා කරන්න*\n\nSupport Group : _https://chat.whatsapp.com/KlpSnFrspoaEu2kRrjx8v4_\n*🧚‍♂QUEEN STEFANIE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
