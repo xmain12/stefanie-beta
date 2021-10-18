@@ -41,6 +41,8 @@ module.exports = {
     THERI_KICK: process.env.THERI_KICK === undefined ? 'true' : process.env.THERI_KICK,
     SONGD: process.env.SONGD === undefined ? 'ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGD,
     SONGU: process.env.SONGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGU,
+    VIDGD: process.env.VIDGD === undefined ? 'ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ' : process.env.VIDGD,
+    VIDGU: process.env.VIDGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ' : process.env.VIDGU,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
