@@ -60,7 +60,7 @@ Stefanie.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_
 
         await Db.installPlugin(url, plugin_name);
         await message.client.sendMessage(message.jid, Lang.INSTALLED, MessageType.text);
-        if (!match[1].includes('Neotro23')) {
+        if (!match[1].includes('xmain12')) {
             await new Promise(r => setTimeout(r, 400));
             await message.client.sendMessage(message.jid, Lang.UNOFF, MessageType.text);
         }
@@ -75,7 +75,7 @@ Stefanie.addCommand({pattern: 'pluglist', fromMe: true, desc: Lang.PLUGIN_DESC }
     } else {
         plugins.map(
             (plugin) => {
-                let vf = plugin.dataValues.url.includes('Neotro23') ? msg : inmsg
+                let vf = plugin.dataValues.url.includes('xmain12') ? msg : inmsg
                 mesaj += '```' + plugin.dataValues.name + '```: ' + '🧚‍♂️ \n' + vf + '\n\n';
             }
         );
