@@ -35,14 +35,14 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
-                        ['THERI_KICK']: 'false'
+                        ['ANTI_BAD']: 'false'
                     } 
                 });
                 await message.sendMessage(THERI_off)
         } else if (match[1] == 'on') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
-                        ['THERI_KICK']: 'true'
+                        ['ANTI_BAD']: 'true'
                     } 
                 });
                 await message.sendMessage(THERI_on)
