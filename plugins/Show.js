@@ -9,7 +9,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const config = require('../config');
 const Language = require('../language');
-const Lang = Language.getString('amazone');
+const Lang = Language.getString('stefanie');
 const { errorMessage, infoMessage } = require('../helpers');
 let td = config.WORKTYPE == 'public' ? false : true
 
