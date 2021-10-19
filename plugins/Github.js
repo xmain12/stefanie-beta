@@ -1,4 +1,4 @@
-const tenu = require('../events');
+const Stefanie = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
@@ -27,7 +27,7 @@ const NOT_FOUND = "*Can't Find Anything!.*"
 
 if (Config.WORKTYPE == 'private') {
 
-tenu.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DESC}, async (message, match) => {
+Stefanie.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DESC}, async (message, match) => {
 
     const pname = match[1]
 
@@ -71,7 +71,7 @@ tenu.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DES
         `*${PHN_CREAT}* ${created_at}`
         
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg +'\n'+'*👩‍🦰Amazone Alexa*'
+          caption: msg +'\n'+'*Made by Queen Stefanie👸*'
         })
       })
       .catch(
@@ -84,7 +84,7 @@ tenu.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DES
 
 if (Config.WORKTYPE == 'public') {
 
-tenu.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC}, async (message, match) => {
+Stefanie.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC}, async (message, match) => {
 
     const pname = match[1]
 
@@ -127,7 +127,7 @@ tenu.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DE
         `*${PHN_CREAT}* ${created_at}`
         
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg +'\n'+'*👩‍🦰Amazone Alexa*'
+          caption: msg +'\n'+'*Made by Queen Stefanie👸*'
         })
       })
       .catch(
