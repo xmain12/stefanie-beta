@@ -76,7 +76,7 @@ async function whatsAsena(version) {
     },
   });
   const conn = new WAConnection();
-  conn.version = version || [2, 2132, 6];
+  conn.version = version;
   const Session = new StringSession();
   conn.logger.level = config.DEBUG ? "debug" : "warn";
   var nodb;
